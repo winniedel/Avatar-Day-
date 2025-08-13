@@ -5,7 +5,7 @@
     
     //Database Connection
     
-    $con = new mysqli("localhost","delinow1","pennY_3426!","delinow1_login_db");
+    $con = new mysqli("");
     if($con->connect_error){
         die("Failed to connect:".$con->connect_error);
     }  else{ 
